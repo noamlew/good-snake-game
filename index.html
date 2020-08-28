@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Snake</title>
+        <link rel="stylesheet" href="snake.css" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Slackey&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Bangers&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" href="image/snake logo.png" />
+    </head>
+    <body>
+        <div id="ndlLogoDiv" class="clear">
+            <img src="image/ndl logo.png" width="100%" class="clear" />
+        </div>
+        <div id="snakeLogoDiv" class="clear">
+            <img src="image/snake logo.png" width="100%" class="clear" />
+        </div>
+        <div id="allLevels" class="clear">
+            <div class="row" class="clear">
+                <div class="level" class="clear" onclick="setUpLevel(1)">
+                    level 1
+                </div>
+                <div class="level" class="clear" onclick="setUpLevel(2)">
+                    level 2
+                </div>
+                <div class="level" class="clear" onclick="setUpLevel(3)">
+                    level 3
+                </div>
+            </div>
+            <div class="row">
+                <div class="level" class="clear" onclick="setUpLevel(4)">
+                    level 4
+                </div>
+                <div class="level" class="clear" onclick="setUpLevel(5)">
+                    level 5
+                </div>
+                <div class="level" class="clear" onclick="setUpLevel(6)">
+                    level 6
+                </div>
+            </div>
+            <div class="row">
+                <div class="level" class="clear" onclick="setUpLevel(7)">
+                    level 7
+                </div>
+                <div class="level" class="clear" onclick="setUpLevel(8)">
+                    level 8
+                </div>
+                <div class="level" class="clear" onclick="setUpLevel(9)">
+                    level 9
+                </div>
+            </div>
+        </div>
+        <div id="allGames" class="clear">
+            <p id="allGamsP" class="clear">
+                Did you enjoy the game? Want more?
+                <a
+                    href="
+                https://noamlew.github.io/snake-FarBy/."
+                    target="_blank"
+                    >click here!</a
+                >
+            </p>
+        </div>
+        <canvas id="gameScreen" width="500" height="500"></canvas>
+    </body>
+    <script src="snake.js"></script>
+</html>
